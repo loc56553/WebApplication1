@@ -13,6 +13,7 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class NhanVienController : ControllerBase
     {
+        //Nguyen Loc
         private readonly MyDbContext ctx;
 
         public NhanVienController(MyDbContext _ctx)
